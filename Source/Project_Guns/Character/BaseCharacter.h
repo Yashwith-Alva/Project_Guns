@@ -13,13 +13,11 @@
 #include "GameFramework/Character.h"
 #include "Project_Guns/GunsTypes/MovementTypes.h"
 #include "Project_Guns/GunsTypes/TurningInPlace.h"
-#include "Project_Guns/Interface/InteractWithCrosshairInterface.h"
 #include "BaseCharacter.generated.h"
 
 UCLASS()
-class PROJECT_GUNS_API ABaseCharacter : public ACharacter, public IInteractWithCrosshairInterface
-{
-	GENERATED_BODY()
+class PROJECT_GUNS_API ABaseCharacter : public ACharacter
+{	GENERATED_BODY()
 
 public:
 	ABaseCharacter();
